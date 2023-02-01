@@ -17,7 +17,8 @@ untuk animasi jenis ini dimana animasi spesifik hanya terjadi dalam 1 section an
 ### scroll tiggered animation
 
 https://css-tricks.com/scroll-triggered-animation-vanilla-javascript/
-mirip dengan parallax namun pada animasi ini trigger dilakukan apa bila page sampai pada id section tertentu. trick pada animasi ini adalah dengan menambahkan kelas active pada section tersebut dan memberikan selector #idsection.active. pada css. untuk penerapan beberapa item sekaligus dapat di lakukan dengan memberikan animation delay yang variatif untuk tiap objek.
+https://www.youtube.com/watch?v=T33NN_pPeNI
+mirip dengan parallax namun pada animasi ini trigger dilakukan apa bila page sampai pada id section tertentu. trick pada animasi ini adalah dengan mengganti class pada object di html, class tersebut nantinya yang akan mengatur animasi yang akan terjadi. untuk penerapan beberapa item sekaligus dapat di lakukan dengan memberikan animation delay yang variatif untuk tiap objek. pada animasi ini menggunakan intersectionObserver
 
 ### mouse move parallax
 
