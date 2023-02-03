@@ -24,3 +24,18 @@ mirip dengan parallax namun pada animasi ini trigger dilakukan apa bila page sam
 
 https://codepen.io/oscicen/pen/zyJeJw
 mirip dengan body parallax namun menggunakan posisi mouse dan mengimbuhkannya kepada background position
+
+### gyroscopic parallax
+
+https://codepen.io/Charlie_Brownie/pen/LjbyNQ
+sama dengan mouse move namun menggunakan mobile gyroscope sebagai patokan observer
+
+### Twirling Scroll button
+
+https://codepen.io/nxworld/pen/OyRrGy
+scroll button yang di animasikan berputar berada di bawah setiap section
+
+## Push History
+
+23:16 - 02/03/23
+Pushing to complete the assignment but the styling process still on going.

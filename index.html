@@ -7,27 +7,181 @@
 
     <title>Bridal Co - Gallery</title>
     <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/mediaquery.css" />
+
+    <script src="./src/js/listof.js" defer></script>
   </head>
   <body>
     <header>
       <nav>
-        <ul>
-          <li>
-            <a href="#">Link 1</a>
-          </li>
-          <li>
-            <a href="#">Link 2</a>
-          </li>
-        </ul>
+        <div class="logo-container">
+          <a href="#hero">
+            <img class="logo" src="./src/img/logo.svg" />
+          </a>
+        </div>
+        <div class="nav-container">
+          <!-- Desktop navigation-->
+          <div class="dekstop-nav">
+            <ul>
+              <li>
+                <a href="#">Link 1</a>
+              </li>
+              <li>
+                <a href="#">Link 2</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Mobile/Table Navigation -->
+          <div class="mobile-nav">
+            <div class="burger-menu-container">
+              <input type="checkbox" id="burger-menu" />
+              <label for="burger-menu" class="burger-menu">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="circle"></span>
+                <div class="mobile-menu-container">
+                  <ul>
+                    <li>
+                      <a href="#"> Link 1 </a>
+                    </li>
+                    <li>
+                      <a href="#"> Link 2 </a>
+                    </li>
+                  </ul>
+                </div>
+              </label>
+            </div>
+          </div>
+        </div>
       </nav>
     </header>
     <main>
-      <section id="hero"></section>
-      <section id="gallery"></section>
-      <section id="video"></section>
-      <section id="fact"></section>
-      <section id="form"></section>
+      <section id="hero" style="background-color: rgb(197, 142, 142)">
+        <div class="mouse-parallax">
+          <div class="hero-text-content">
+            <h1>WELCOME TO Ras'Al Rach</h1>
+            <h2>Land of The Brave</h2>
+          </div>
+        </div>
+        <a class="scroll-button" href="#gallery"><span></span>Scroll</a>
+      </section>
+      <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="grid-container section-content">
+          <div id="item-1">
+            <img src="./src/img/cloud.jpg" alt="Alana the ice mage" />
+          </div>
+          <div id="item-2">
+            <img src="./src/img/cloud.jpg" alt="Rodrick thebrute warrior" />
+          </div>
+          <div id="item-3">
+            <img src="./src/img/cloud.jpg" alt="Cassie Godblessed hunter" />
+          </div>
+          <div id="item-4">
+            <img src="./src/img/cloud.jpg" alt="Odie the talking fat dog" />
+          </div>
+          <div id="item-5">
+            <img
+              src="./src/img/cloud.jpg"
+              alt="Mira the Nightshade clan's assasin"
+            />
+          </div>
+        </div>
+        <a class="scroll-button" href="#video"><span></span>Scroll</a>
+      </section>
+      <section id="video">
+        <h2>Video teaser</h2>
+        <div class="video-container section-content">
+          <iframe
+            src="https://www.youtube.com/embed/iPQzeVF6VkQ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <a class="scroll-button" href="#form"><span></span>Scroll</a>
+      </section>
+      <section id="form">
+        <h2>Join Us</h2>
+        <div class="section-content">
+          <form action="#">
+            <fieldset>
+              <legend>Personal Data</legend>
+              <div>
+                <label for="full-name">Full name</label>
+                <input id="full-name" type="text" required />
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input id="email" type="email" required />
+              </div>
+              <div>
+                <p>Your sex ?</p>
+                <input type="radio" id="male" name="sex" value="Male" />
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="sex" value="Female" />
+                <label for="female">Female</label>
+                <input type="radio" id="hema" name="sex" value="Hema" />
+                <label for="hema">Hema</label>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>Character Creation</legend>
+              <div>
+                <p>What feats your character have?</p>
+                <input
+                  id="brave"
+                  type="checkbox"
+                  name="charaFeats"
+                  value="brave"
+                />
+                <label for="brave">Brave</label>
+                <input
+                  id="agile"
+                  type="checkbox"
+                  name="charaFeats"
+                  value="agile"
+                />
+                <label for="agile">Agile</label>
+                <input
+                  id="wise"
+                  type="checkbox"
+                  name="charaFeats"
+                  value="wise"
+                />
+                <label for="wise">Wise</label>
+                <input
+                  id="strong"
+                  type="checkbox"
+                  name="charaFeats"
+                  value="strong"
+                />
+                <label for="strong">Strong</label>
+              </div>
+              <div>
+                <p>Tell us the story of your character</p>
+                <textarea rows="4"></textarea>
+              </div>
+              <div>
+                <p>Upload your character appearance preference</p>
+                <input
+                  required
+                  type="file"
+                  id="photo"
+                  name="charaPreferPhoto"
+                  accept="image/png, image/jpeg"
+                />
+              </div>
+            </fieldset>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
     </main>
   </body>
-  <footer></footer>
+  <footer>
+    <span>©2023 Rafael Jonathan</span>
+  </footer>
 </html>

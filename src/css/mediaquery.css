@@ -1,0 +1,50 @@
+/* - Tablet - */
+
+@media screen and (min-width: 768px) {
+  /* Header */
+  label.burger-menu {
+    margin-top: 5%;
+  }
+  .scroll-button {
+    left: 47%;
+  }
+}
+
+/* - Desktop - */
+@media screen and (min-width: 1024px) {
+  .scroll-button {
+    left: 48.5%;
+  }
+
+  /* Header */
+  label.burger-menu {
+    margin-top: 2%;
+  }
+  /* Gallery */
+  .grid-container {
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 12px;
+    grid-auto-rows: 30vh 30vh;
+    border-radius: 10px;
+  }
+
+  .grid-container #item-1 {
+    grid-column: 1;
+    grid-row: 1 / 2 span;
+  }
+  .grid-container #item-2 {
+    grid-column: 2 /3 span;
+    grid-row: 1;
+  }
+  /* - Video - */
+  iframe {
+    width: 70%;
+    height: 80%;
+  }
+  /* - Form - */
+  .section-content fieldset {
+    width: 100%;
+  }
+}
