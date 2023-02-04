@@ -39,3 +39,16 @@ scroll button yang di animasikan berputar berada di bawah setiap section
 
 23:16 - 02/03/23
 Pushing to complete the assignment but the styling process still on going.
+
+23:38- 02/03/23
+Pushing forgot about the desktop nav
+
+23:38- 02/03/23
+Pushing forgot about the desktop nav 2nd, the html not saved yet
+
+23:38- 02/03/23
+Pushing new html added mouse move parallax, burger menu js
+Note:
+
+- need to find new way to show the mobile menu burger list
+- within these method, mouse parallax background could move when the image is bigger than the viewport thats why when the view port is too large either the x or y position
