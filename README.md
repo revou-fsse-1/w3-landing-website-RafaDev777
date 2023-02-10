@@ -52,3 +52,4 @@ Note:
 
 - need to find new way to show the mobile menu burger list
 - within these method, mouse parallax background could move when the image is bigger than the viewport thats why when the view port is too large either the x or y position
+- for section dont use height because it limit the flexibility of the section it self, use min-height instead
